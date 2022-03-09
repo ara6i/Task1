@@ -1,0 +1,101 @@
+body {
+  overflow-x: hidden;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10px 0px 40px;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.image {
+  width: 100%;
+  height: 100%;
+}
+.yellow {
+  background-color: rgba(254, 213, 0, 1);
+  width: 515px;
+  height: 668px;
+  position: absolute;
+  top: -100px;
+  left: 400px;
+}
+.ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  cursor: pointer;
+}
+.ul li {
+    padding-bottom: 20px;
+    
+}
+.ul li:hover {
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+.green {
+  background-color: rgba(114, 244, 118, 1);
+  width: 1328px;
+  height: 825px;
+  position: relative;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  width: 908px;
+  height: 180px;
+}
+.ul__footer {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+}
+.ul__footer li {
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+.ul__footer li:hover {
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+.h1 {
+    position: absolute;
+    left: 40px;
+    bottom: 250px;
+    font-size: 100px;
+}
+.profile {
+    position: absolute;
+    z-index: 10;
+    bottom: 180px;
+    filter: grayscale(1);
+    left: 400px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    right: 100px;
+}
+.span {
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+}
+.p {
+    color: black;
+    font-size: 20px;
+}
